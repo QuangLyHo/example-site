@@ -11,16 +11,19 @@
 <body>
     <header>
         <nav class="navbar">
-            <a href="#" class="nav--title"><h1>Travis Przybylski</h1></a>
+            <a href="#" class="nav--title"><h2>Travis Przybylski</h2></a>
             <ul class="nav--menu">
                 <li class="nav--item">
                     <a class="nav--link" href="#home">home</a>
                 </li>
                 <li class="nav--item">
-                    <a class="nav--link" href="#resume">resume</a>
+                    <a class="nav--link" href="#news">news</a>
                 </li>
                 <li class="nav--item">
                     <a class="nav--link" href="#photos">photos</a>
+                </li>
+                <li class="nav--item">
+                    <a class="nav--link" href="#resume">resume</a>
                 </li>
                 <li class="nav--item">
                     <a class="nav--link" href="#contact">contact</a>
@@ -36,26 +39,69 @@
         </nav>
     </header>
 
-    <section id="home" class="container--main">
+    <section id="home" class="main">
         <img class="main--img" src="./images/travis-front.jpeg" /> 
 
         <div class="main--about">
-            <h2 class="main--about-name">Travis <span class="block">Przybylski</span></h2>
+            <h1 class="main--about-name">
+                Travis <span class="block">Przybylski</span>
+            </h1>
             <p class="main--about-descriptors">Actor. Comedian. Singer.<p>
+            <div class="white-tile"></div> <!--  Pending/Review  -->
         </div>
     </section>
 
-    <section id="resume">
-        <h2>Resume</h2>
-        <img src="./images/travis-BW.jpeg" style="height: 100vh;"/>
+    <section id="news" class="container news">
+        <!-- <h2 class="news--title">News</h2> -->
+        <p class="news--about-me">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+
+        <img class="news--image" src="./images/travis-BW.jpeg" />
+
+        <h2 class="news--title">Works</h2>
+        <div class="news--card">
+            <h3 class="news--subtitle">Film</h3>
+            <ul class="news--list">
+                <li>
+                    Travis plays the role of LTJG Dawson in the Tom Hanks WWII feature, Greyhound, exclusively on AppleTv+.  
+                </li>
+                <li>
+                    You can catch Travis in American High’s feature film, Banana Split, streaming on Amazon Prime.  
+                </li>
+                <li>
+                    Most recent TV appearance as Lance Corporal Arndt in The Code on CBS.
+                </li>
+                <li>
+                    Travis made his network TV debut in 2017 as Daniel Ross in Law and Order: SVU.
+                </li>
+            </ul>
+        </div>
+        <div class="news--card">
+            <h3 class="news--subtitle">Comedy</h3>
+            <ul class="news--list">
+                <li>
+                    Travis will be performing in a comedy showcase at The Stand (Date postponed for #socialdistancing2020. Check back for updates)
+                </li>
+            </ul>
+        </div>
+        <div class="news--card">
+            <h3 class="news--subtitle">Theatre</h3>
+            <ul class="news--list">
+                <li>
+                    Most recently, Travis was seen as Roger in Grease at The REV (formerly The Finger Lakes Musical Theatre Festival)
+                </li>
+                <li>
+                    Travis has been honored to be in all three American productions of the new Sir Tim Rice musical, From Here to Eternity, including the NYC developmental lab. 
+                </li>
+            </ul>
+        </div>
     </section>
     
-    <section id="photos">
+    <section id="photos" class="container photos">
         <h2>Photos</h2>
         <img src="./images/travis-live.jpeg" style="height: 100vh;" />
     </section>
 
-    <section id="contact">
+    <section id="contact" class="container">
         <h2>Contact</h2>
         <img src="./images/travis-denim.jpeg" style="height: 100vh;"/>
     </section>
