@@ -328,6 +328,7 @@ a {
     margin: 0;
     padding: 0;
     position: relative;
+    pointer-events: none;
 }
 
 .news > div:nth-of-type(1) {
