@@ -388,12 +388,14 @@ a {
     align-items: center;
 }
 
-.news--card:hover .card--hover {
+.news--card:hover .card--hover,
+.news--card:active .card--hover {
     display: flex;
     opacity: .7;
 }
 
-.news--card:hover .card-title {
+.news--card:hover .card-title,
+.news--card:active .card-title {
     display: none;
 }
 
